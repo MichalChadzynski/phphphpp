@@ -1,0 +1,14 @@
+<?php
+	$rok = substr('01230903316', -11,2);
+	$miesiac =substr('01230903316', -9,2)-20;
+	$dzien =substr('01230903316', -7,2);
+	$plec =substr('01230903316', -2,1);
+	echo 'urodziles sie '.$miesiac. '  '.$dzien;
+	echo ' 20'.$rok. '<br>';
+	if ($plec%2==0) {
+		echo 'jestes baba';
+	
+	}else { 
+			echo 'jestes chlop';
+		
+	}
